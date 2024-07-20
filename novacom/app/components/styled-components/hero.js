@@ -43,7 +43,7 @@ const Hero_Text = styled.p`
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 10px;
 
-  background-color: #101010;
+  background-color: rgba(255, 255, 255, 0.1);
   color: ${(props) => props.$color || "white"};
   text-align: center;
   margin: 0 auto;
