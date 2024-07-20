@@ -27,14 +27,20 @@ const Nomination = () => {
           </Hero_Text>
           <Hero_Spacer $height="1rem"></Hero_Spacer>
           <Box>
-            <Hero_Image src="/coins.png" alt="logo" $width="100%" />
-            <Hero_Title $fontSize="2rem" $align="left">
+            <Hero_Image
+              src="/coins.png"
+              alt="logo"
+              $width="100%"
+              $widthM="100%"
+            />
+            <Hero_Title $fontSize="2rem" $fontSizeM="1.6rem" $align="left">
               Do you have a peer or colleague to attend NOVACOM?
             </Hero_Title>
             <Hero_Title
               $fontSize="1.2rem"
               $align="left"
               $color="rgba(255,255,255,0.6)"
+              $fontSizeM="1.2rem"
             >
               Nominate and Earn 50 NOVA points for each successful Nomination!
             </Hero_Title>
@@ -42,7 +48,7 @@ const Nomination = () => {
         </Column>
         <Column $width="47%">
           <Box $gap="15px">
-            <Hero_Title $padding="10px " $fontSize="2rem">
+            <Hero_Title $padding="10px " $fontSize="2rem" $fontSizeM="1.4rem">
               Submit your Nomination
             </Hero_Title>
             <Input placeholder="Full Name" $width="90%" />

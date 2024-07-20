@@ -30,6 +30,10 @@ const Hero_Title = styled.h1`
   color: ${(props) => props.$color || "white"};
   text-align: ${(props) => props.$align || "center"};
   margin: 0;
+
+  @media (max-width: 1200px) {
+    font-size: ${(props) => props.$fontSizeM || "2.5rem"};
+  }
 `;
 const Hero_Text = styled.p`
   font-size: ${(props) => props.$fontSize || "1rem"};
@@ -43,14 +47,28 @@ const Hero_Text = styled.p`
   color: ${(props) => props.$color || "white"};
   text-align: center;
   margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    margin: 0;
+    font-size: ${(props) => props.$fontSizeM || "0.6rem"};
+  }
 `;
 const Hero_Image = styled.img`
   width: ${(props) => props.$width || "240px"};
   margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    width: ${(props) => props.$widthM || "160px"};
+  }
 `;
 const Hero_Spacer = styled.div`
   width: 100%;
   height: ${(props) => props.$height || "2rem"};
+
+  @media (max-width: 1200px) {
+    height: ${(props) => props.$heightM || "1rem"};
+  }
 `;
 const Hero_Button = styled.button`
   width: ${(props) => props.$width || "fit-content"};
@@ -62,6 +80,10 @@ const Hero_Button = styled.button`
   border: 0;
   border-radius: 5px;
   margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    font-size: 0.6em;
+  }
 `;
 const W_text = styled.span`
   color: #ffffff;

@@ -34,7 +34,7 @@ const Container = styled.div`
 const Row = styled.div`
   width: ${(props) => props.$width || "100%"};
   display: flex;
-  min-width: 400px;
+
   flex-direction: row;
   min-width: 300px;
   justify-content: ${(props) => props.$justify || "space-between"};
@@ -56,7 +56,12 @@ const Column = styled.div`
   item-align: ${(props) => props.$align || "center"};
 
   @media (max-width: 1200px) {
-    width : 80%;}
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const Box = styled.div`

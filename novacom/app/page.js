@@ -18,9 +18,11 @@ const Home = () => {
       <Hero_Grad>
         <Hero_Title $fontSize="3.5rem">NOMINATE AN ATTENDEE FOR</Hero_Title>
         <Hero_Image src="/novcom_logo.png" alt="logo" />
-        <Hero_Title $fontSize="2rem">AFRICA</Hero_Title>
-        <Hero_Spacer $height="1rem"></Hero_Spacer>
-        <Hero_Title $color="yellow" $fontSize="2rem">
+        <Hero_Title $fontSize="2rem" $fontSizeM="1.4rem">
+          AFRICA
+        </Hero_Title>
+        <Hero_Spacer $height="1rem" $heightM="0"></Hero_Spacer>
+        <Hero_Title $color="yellow" $fontSize="2rem" $fontSizeM="1.4rem">
           01-03 OCT 2024
         </Hero_Title>
         <Hero_Text $fontSize="1rem" $color="rgba(255,255,255,0.8)">
@@ -37,7 +39,6 @@ const Home = () => {
             margin: "0 auto",
             justifyContent: "center",
             textDecoration: "none",
-            
           }}
         >
           <Hero_Button>Nominate Now!</Hero_Button>
