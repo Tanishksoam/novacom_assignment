@@ -25,11 +25,21 @@ const Home = () => {
         <Hero_Title $color="yellow" $fontSize="2rem" $fontSizeM="1.4rem">
           01-03 OCT 2024
         </Hero_Title>
-        <Hero_Text $fontSize="1rem" $color="rgba(255,255,255,0.8)">
+        <Hero_Text
+          $fontSize="1rem"
+          $color="rgba(255,255,255,0.8)"
+          $widthM="80%"
+          $marginM="auto"
+        >
           Nominate a peer or colleague to attend NOVACOM and earn &nbsp;
           <W_text>NOVA points.</W_text>
         </Hero_Text>
-        <Hero_Text $fontSize="1rem" $color="rgba(255,255,255,0.8)">
+        <Hero_Text
+          $fontSize="1rem"
+          $color="rgba(255,255,255,0.8)"
+          $widthM="80%"
+          $marginM="auto"
+        >
           <W_text>You have 4 nominations left.</W_text>
         </Hero_Text>
         <Link

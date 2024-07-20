@@ -49,8 +49,8 @@ const Hero_Text = styled.p`
   margin: 0 auto;
 
   @media (max-width: 1200px) {
-    width: 100%;
-    margin: 0;
+    width: ${(props) => props.$widthM || "100%"};
+    margin: 0 ${(props) => props.$marginM || "0"};
     font-size: ${(props) => props.$fontSizeM || "0.6rem"};
   }
 `;
