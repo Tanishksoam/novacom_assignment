@@ -22,7 +22,7 @@ const Home = () => {
           AFRICA
         </Hero_Title>
         <Hero_Spacer $height="1rem" $heightM="0"></Hero_Spacer>
-        <Hero_Title $color="yellow" $fontSize="2rem" $fontSizeM="1.4rem">
+        <Hero_Title $color="#FFB74D" $fontSize="2rem" $fontSizeM="1.4rem">
           01-03 OCT 2024
         </Hero_Title>
         <Hero_Text
